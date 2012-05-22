@@ -1,0 +1,61 @@
+#activity{
+  list-style : none;
+}
+#act_wrap{
+  width: 350px;
+  background-color: #FFF;
+  padding: 7px;
+  border: 1px solid #CCC;
+	overflow: auto;
+	height: 150px;
+	margin: 10px;
+}
+/* set display:none; to disable credits display. I won't notice it anyway :) */
+#act_credits{
+  float: right;
+  color: #666;
+	font-size: 80%;
+}
+#toplevel_page_act_activity div.wp-menu-image {
+	background: transparent url(./img/admin_menu_icon.png) no-repeat 0px -32px !important;;
+}
+
+#toplevel_page_act_activity:hover div.wp-menu-image,
+#toplevel_page_act_activity.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url(./img/admin_menu_icon.png) no-repeat 0px 0px !important;
+}
+.act_data_report_icon{
+  vertical-align: middle;
+}
+/* Was previously named #activity-nowindow */
+#activity-archive{
+  list-style : none;
+}
+.act_info{
+  color: #AAA;
+	font-size: 80%;
+}
+#activity-rows{
+	font-weight: bold;
+	float:right;
+	padding-right: 30px;
+}
+.activity_date{
+	color: #AAA;
+	font-size: 80%;
+	margin-left: 3px;
+}
+#activity IMG, #activity-archive IMG{
+	padding-right: 3px;
+}
+.act-old{
+	color: #AAA;
+}
+.activity_warning{
+  color: Red;
+}
+#act_admin_icon{
+	background-color: transparent;
+	background-image: url(img/icon32.png);
+	background-repeat: no-repeat;
+}

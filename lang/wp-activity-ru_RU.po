@@ -1,0 +1,897 @@
+# Translation of the WordPress plugin WP-Activity 0.8 by Dric.
+# Copyright (C) 2010 Dric
+# This file is distributed under the same license as the WP-Activity package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Activity 1.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-23 16:41+0100\n"
+"PO-Revision-Date: 2012-05-10 14:57+1100\n"
+"Last-Translator: NoMax <nomax07@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-act-admin.php:7
+msgid "Last login"
+msgstr "Последняя авторизация"
+
+#: ../wp-act-admin.php:30
+msgid "Logon fails"
+msgstr "Неудачная попытка<br /> авторизации на сайте"
+
+#: ../wp-act-admin.php:39
+msgid "Settings"
+msgstr "Настройки"
+
+#: ../wp-act-admin.php:40
+msgid "Uninstall"
+msgstr "Удалить"
+
+#: ../wp-act-admin.php:50
+msgid "Activity Log"
+msgstr "Лог событий"
+
+#: ../wp-act-admin.php:51
+#: ../wp-act-admin.php:802
+#: ../wp-act-admin.php:819
+msgid "Activity Stats"
+msgstr "Статистика"
+
+#: ../wp-act-admin.php:52
+#: ../wp-act-admin.php:403
+msgid "WP-Activity Settings"
+msgstr "Настройки"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:107
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr ""
+
+#: ../wp-act-admin.php:210
+msgid "Event(s) deleted."
+msgstr "Событие(-я) удалено(-ы)."
+
+#: ../wp-act-admin.php:281
+#: ../wp-activity.php:479
+#: ../wp-activity.php:887
+msgid "Recent Activity"
+msgstr "Последние события"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:296
+msgid "Bulk Actions"
+msgstr "Групповые операции"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:297
+msgid "Delete"
+msgstr "Удалить"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:303
+msgid "View all"
+msgstr "Показать все."
+
+#: ../wp-act-admin.php:309
+msgid "Order by date (DESC)"
+msgstr "Сортировать по дате (по убыванию)"
+
+#: ../wp-act-admin.php:310
+msgid "Order by user"
+msgstr "Сортировать по пользователям"
+
+#: ../wp-act-admin.php:311
+msgid "Order by event type"
+msgstr "Сортировать по типу события"
+
+#: ../wp-act-admin.php:321
+msgid "All users"
+msgstr "Все пользователи"
+
+#: ../wp-act-admin.php:327
+#: ../wp-act-admin.php:342
+#: ../wp-act-admin.php:352
+#: ../wp-act-export.php:65
+msgid "User"
+msgstr "Пользователь"
+
+#: ../wp-act-admin.php:331
+msgid "Data"
+msgstr "Данные"
+
+#: ../wp-act-admin.php:341
+#: ../wp-act-admin.php:351
+#: ../wp-act-export.php:65
+msgid "Date"
+msgstr "Дата"
+
+#: ../wp-act-admin.php:343
+#: ../wp-act-admin.php:353
+#: ../wp-act-export.php:65
+msgid "Event Type"
+msgstr "Тип события"
+
+#: ../wp-act-admin.php:344
+#: ../wp-act-admin.php:354
+#: ../wp-act-export.php:65
+msgid "Applies to"
+msgstr "IP-адрес / Применительно к..."
+
+#: ../wp-act-admin.php:384
+msgid "Export filtered Data &raquo;"
+msgstr "Экспортировать отсортированные данные &raquo;"
+
+#: ../wp-act-admin.php:385
+msgid "Delete exported data"
+msgstr "Удалить отсортированные данные о событиях при их экспорте"
+
+#: ../wp-act-admin.php:386
+msgid "If you use MS Excel and have some ugly characters, rename the file extension to .txt and open it within Excel."
+msgstr "Если Вы открыли экспортированный файл в MS Excel и обнаружили проблемы с кодировкой, попробуйте изменить расширение экспортированного файла на .txt и вновь открыть файл в MS Excel.<br />Либо попробуйте преобразовать кодировку содержимого файла с UTF-8 в ANSI с помощью программы Notepad++."
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:437
+msgid "Options saved."
+msgstr "Настройки сохранены."
+
+#: ../wp-act-admin.php:442
+msgid "Activity logs deleted."
+msgstr "Журнал событий очищен."
+
+#: ../wp-act-admin.php:449
+#: ../wp-act-admin.php:460
+#, php-format
+msgid "Activity Plugin has been uninstalled. You can now desactivate this plugin : <a href=\"%s\">Plugins Page</a>"
+msgstr "Плагин удален. Сейчас вы можете деактивировать его на <a href=\"%s\">странице плагинов</a>"
+
+#: ../wp-act-admin.php:454
+msgid "Manual pruning done."
+msgstr "Сокращение кол-во записей в журнале событий до установленного лимита успешно выполнено."
+
+#: ../wp-act-admin.php:477
+#: ../wp-act-admin.php:486
+msgid "Date format"
+msgstr "Формат даты"
+
+#: ../wp-act-admin.php:478
+#: ../wp-act-admin.php:509
+msgid "Display options"
+msgstr "Параметры отображения"
+
+#: ../wp-act-admin.php:479
+#: ../wp-act-admin.php:540
+msgid "Privacy options"
+msgstr "Параметры конфиденциальности"
+
+#: ../wp-act-admin.php:480
+#: ../wp-act-admin.php:553
+msgid "Events logging and feeding"
+msgstr "Запись событий и отображение в RSS-ленте"
+
+#: ../wp-act-admin.php:481
+#: ../wp-act-admin.php:596
+msgid "Blacklisting"
+msgstr ""
+
+#: ../wp-act-admin.php:482
+#: ../wp-act-admin.php:642
+msgid "Reset/uninstall"
+msgstr "Сброс настроек/удаление плагина"
+
+#: ../wp-act-admin.php:489
+msgid "Date format : "
+msgstr "Формат даты :"
+
+#: ../wp-act-admin.php:496
+msgid "For events that are more than a month old only, or if you dont use relative dates."
+msgstr "Только для событий месячной и более давности, или если вы не используете относительные даты."
+
+#: ../wp-act-admin.php:499
+msgid "Use relative dates : "
+msgstr "Использовать <br />относительные даты :"
+
+#: ../wp-act-admin.php:502
+msgid "Relatives dates exemples : 1 day ago, 22 hours and 3 minutes ago, etc."
+msgstr "Примеры относительных дат: 1 день назад, 22 часа и 3 минуты назад, и т.д."
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:506
+#: ../wp-act-admin.php:537
+#: ../wp-act-admin.php:550
+#: ../wp-act-admin.php:593
+#: ../wp-act-admin.php:637
+msgid "Update options &raquo;"
+msgstr "Обновить настройки &raquo;"
+
+#: ../wp-act-admin.php:512
+msgid "Display icons : "
+msgstr "Показывать иконки<br />в ленте событий :"
+
+#: ../wp-act-admin.php:513
+msgid "Generic icons "
+msgstr "Стандартные иконки"
+
+#: ../wp-act-admin.php:515
+msgid "Gravatars for profile edit and connect events icons"
+msgstr "Показывать Граватары (gravatars) вместо стандартных иконок для действий пользователей."
+
+#: ../wp-act-admin.php:516
+msgid "No icons "
+msgstr "Не отображать иконки"
+
+#: ../wp-act-admin.php:518
+msgid "Highlight new activity since last user login : "
+msgstr "Приоритетно показывать деятельность последнего авторизованного пользователя :"
+
+#: ../wp-act-admin.php:522
+msgid "Display a link to the activity archive page : "
+msgstr "Показывать ссылку <br />на страницу с архивом <br />событий :"
+
+#: ../wp-act-admin.php:526
+msgid "You have to create a page first, with the [ACT_STREAM] shortcode."
+msgstr "Для начала, вам необходимо создать страницу и добавить туда шорт-код [ACT_STREAM]."
+
+#: ../wp-act-admin.php:530
+msgid "Author Path : "
+msgstr "Ссылка на страницу <br />профиля пользователя :"
+
+#: ../wp-act-admin.php:533
+msgid "If you modified your author structure link or if you use WPMu, change your path. (Default : author, BuddyPress : members)"
+msgstr "Если вы изменили структуру ссылки на страницу профиля пользователи, или если вы используете WPMu (WordPress Multi User), измените ссылку. ( по умолчанию: author, BuddyPress : members)"
+
+#: ../wp-act-admin.php:543
+msgid "Prevent users to hide their activity : "
+msgstr "Запретить пользователям возможность скрывать свою активность :"
+
+#: ../wp-act-admin.php:546
+msgid "Warning : If you activate this option, users won't have the choice to allow or deny the logging of their activity. For privacy respect, this option should stay desactivated."
+msgstr "Предупреждение: Если вы активируете данную опцию, пользователи не будут иметь возможности выбора разрешать или запрещать сбор сведений о их активности на сайте. В целях обеспечения права конфиденциальности, данная опция должна быть не активной."
+
+#: ../wp-act-admin.php:556
+msgid "Rows limit in database : "
+msgstr "Лимит хранения<br />фактов событий в БД :"
+
+#: ../wp-act-admin.php:557
+msgid "Manually prune table"
+msgstr "Сократить кол-во записей в журнале событий до установленного лимита"
+
+#: ../wp-act-admin.php:558
+#, php-format
+msgid "There is currently %s rows in database."
+msgstr "Сейчас в журнале событий содержится %s факт(-ов) активности пользователей"
+
+#: ../wp-act-admin.php:561
+msgid "Display activity RSS feed : "
+msgstr "Отображать активность в RSS-ленте :"
+
+#: ../wp-act-admin.php:564
+msgid "Log login failures : "
+msgstr "Собирать сведения о<br />неудачных попытках<br />авторизации на сайте :"
+
+#: ../wp-act-admin.php:567
+msgid "If you want to log all connexions attempts that failed, enable this option."
+msgstr "Если вы хотите собирать сведения о фактах неудачных попыток авторизаций на сайте, активируйте данную опцию."
+
+#: ../wp-act-admin.php:570
+msgid "Log in database"
+msgstr "Записывать в БД"
+
+#: ../wp-act-admin.php:570
+msgid "Display in feed"
+msgstr "Отображать в RSS-ленте"
+
+#: ../wp-act-admin.php:572
+msgid "Login events : "
+msgstr "Авторизация на сайте :"
+
+#: ../wp-act-admin.php:576
+msgid "Profile update/new user events : "
+msgstr "Обновление профиля/регистрация<br /> нового пользователя :"
+
+#: ../wp-act-admin.php:580
+msgid "Post creation/update/deletion events : "
+msgstr "Создание/редактирование/удаление материала :"
+
+#: ../wp-act-admin.php:584
+msgid "New comment events : "
+msgstr "Добавление нового комментария :"
+
+#: ../wp-act-admin.php:588
+msgid "New link events : "
+msgstr "Добавление новой входящей ссылки : "
+
+#: ../wp-act-admin.php:599
+msgid "Activate blacklisting"
+msgstr ""
+
+#: ../wp-act-admin.php:602
+msgid "Blacklisting allow to deny access to your blog for specified IP addresses."
+msgstr ""
+
+#: ../wp-act-admin.php:606
+msgid "Blacklist on wp-login.php only"
+msgstr ""
+
+#: ../wp-act-admin.php:609
+msgid "Check this option if you don't have any frontend login form. For more blog performance, this option should be enabled when possible."
+msgstr ""
+
+#: ../wp-act-admin.php:614
+msgid "Auto-Blacklist IP after "
+msgstr ""
+
+#: ../wp-act-admin.php:622
+msgid "failed logon attempts"
+msgstr ""
+
+#: ../wp-act-admin.php:626
+msgid "If checked, IP addresses will be automatically added to the blacklist after x failed logon attempts during the last 48h."
+msgstr ""
+
+#: ../wp-act-admin.php:630
+msgid "IP list"
+msgstr ""
+
+#: ../wp-act-admin.php:633
+msgid "One IP per line. Don't blacklist your own IP ! Examples:"
+msgstr ""
+
+#: ../wp-act-admin.php:645
+msgid "Empty activity table : "
+msgstr "Очистить журнал событий :"
+
+#: ../wp-act-admin.php:652
+msgid "Reset logs"
+msgstr "Сброс логов"
+
+#: ../wp-act-admin.php:652
+msgid ""
+"Empty activity table ? All your activity logs will be deleted.\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to proceed.\\n"
+msgstr ""
+"Вы действительно хотите очистить журнал событий ? Все зарегистрированные факты активности пользователей будут удалены. \\n"
+"\\n"
+"Для отмены нажмите [Cancel], для продолжения операции - [OK]. \\n"
+
+#: ../wp-act-admin.php:653
+msgid "Warning : cleaning activity table erase all activity logs."
+msgstr "Предупреждение : очистка журнала событий уничтожит все зарегистрированные факты активности пользователей."
+
+#: ../wp-act-admin.php:657
+#: ../wp-act-admin.php:664
+msgid "Uninstall plugin"
+msgstr "Удаление плагина"
+
+#: ../wp-act-admin.php:664
+msgid ""
+"Uninstall plugin ? Settings and activity logs will be deleted.\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to proceed.\\n"
+msgstr ""
+"Вы действительно хотите удалить плагин ? Все настройки и журнал событий будут удалены.\\n"
+"\\n"
+"Для отмены нажмите [Cancel], для продолжения операции - [OK]. \\n"
+
+#: ../wp-act-admin.php:665
+msgid "Warning : This will delete settings and activity table."
+msgstr "Предупреждение : данное действие приведет к удалению настроек и журнала событий зарегистрированных фактов активности пользователей."
+
+#: ../wp-act-admin.php:674
+#, php-format
+msgid "WP-Activity is a plugin by <a href=\"http://www.driczone.net\">Dric</a>. Version <strong>%s</strong>."
+msgstr ""
+
+#: ../wp-act-admin.php:748
+msgid "Successful user login(s)"
+msgstr "Успешные авторизации пользователей"
+
+#: ../wp-act-admin.php:749
+msgid "New registered user(s)"
+msgstr "Новые регистрации пользователей"
+
+#: ../wp-act-admin.php:750
+msgid "Login attempt(s) failed"
+msgstr ""
+
+#: ../wp-act-admin.php:751
+msgid "Access(es) denied"
+msgstr ""
+
+#: ../wp-act-admin.php:752
+msgid "Profile(s) edited"
+msgstr "Факты редактирования профиля"
+
+#: ../wp-act-admin.php:753
+msgid "Post(s) created"
+msgstr "Создание материалов"
+
+#: ../wp-act-admin.php:754
+msgid "Post(s) edited"
+msgstr "Факты редактирования материалов"
+
+#: ../wp-act-admin.php:755
+msgid "Post(s) deleted"
+msgstr "Удаление материалов"
+
+#: ../wp-act-admin.php:756
+msgid "Comment(s) added"
+msgstr "Добавление новых комментариевв"
+
+#: ../wp-act-admin.php:757
+msgid "Link(s) added"
+msgstr "Добавление входящих ссылок"
+
+#: ../wp-act-admin.php:762
+msgid "Close"
+msgstr ""
+
+#: ../wp-act-admin.php:763
+msgid "&#x3c;Prev"
+msgstr ""
+
+#: ../wp-act-admin.php:764
+msgid "Next&#x3e;"
+msgstr ""
+
+#: ../wp-act-admin.php:765
+msgid "Current"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:766
+msgid "January"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:766
+msgid "February"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:766
+msgid "March"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:766
+msgid "April"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:766
+msgid "May"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:766
+msgid "June"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:767
+msgid "July"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:767
+msgid "August"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:767
+msgid "September"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:767
+msgid "October"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:767
+msgid "November"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:767
+msgid "December"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:768
+msgid "Jan_January_abbreviation"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:768
+msgid "Feb_February_abbreviation"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:768
+msgid "Mar_March_abbreviation"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:768
+msgid "Apr_April_abbreviation"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:768
+msgid "May_May_abbreviation"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:768
+msgid "Jun_June_abbreviation"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:769
+msgid "Jul_July_abbreviation"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:769
+msgid "Aug_August_abbreviation"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:769
+msgid "Sep_September_abbreviation"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:769
+msgid "Oct_October_abbreviation"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:769
+msgid "Nov_November_abbreviation"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:769
+msgid "Dec_December_abbreviation"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:770
+msgid "Sunday"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:770
+msgid "Monday"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:770
+msgid "Tuesday"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:770
+msgid "Wednesday"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:770
+msgid "Thursday"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:770
+msgid "Friday"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:770
+msgid "Saturday"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:771
+msgid "Sun"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:771
+msgid "Mon"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:771
+msgid "Tue"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:771
+msgid "Wed"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:771
+msgid "Thu"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:771
+msgid "Fri"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:771
+msgid "Sat"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:772
+msgid "S_Sunday_initial"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:772
+msgid "M_Monday_initial"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:772
+msgid "T_Tuesday_initial"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:772
+msgid "W_Wednesday_initial"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:772
+msgid "T_Thursday_initial"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:772
+msgid "F_Friday_initial"
+msgstr ""
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:772
+msgid "S_Saturday_initial"
+msgstr ""
+
+#: ../wp-act-admin.php:807
+msgid "Date range"
+msgstr "Диапазон дат"
+
+#: ../wp-act-admin.php:822
+#: ../wp-activity.php:895
+#: ../wp-activity.php:963
+msgid "Events number :"
+msgstr "Количество событий :"
+
+#: ../wp-act-admin.php:834
+msgid "See data for"
+msgstr "Показать данные по следующим событиям:"
+
+#: ../wp-activity-feed.php:16
+msgid "New visit"
+msgstr "Новео посещение"
+
+#: ../wp-activity-feed.php:17
+msgid "New post"
+msgstr "Новый материал"
+
+#: ../wp-activity-feed.php:18
+msgid "Post edited"
+msgstr "Материал изменен"
+
+#: ../wp-activity-feed.php:19
+msgid "Post deleted"
+msgstr "Материал удален"
+
+#: ../wp-activity-feed.php:20
+msgid "Profile edited"
+msgstr "Профиль изменен"
+
+#: ../wp-activity-feed.php:21
+msgid "New comment"
+msgstr "Новый комментарий"
+
+#: ../wp-activity-feed.php:22
+msgid "Comment edited"
+msgstr "Комментарий изменен"
+
+#: ../wp-activity-feed.php:23
+msgid "Comment deleted"
+msgstr "Комментарий удален"
+
+#: ../wp-activity-feed.php:24
+msgid "New link"
+msgstr "Новая ссылка"
+
+#: ../wp-activity-feed.php:31
+#: ../wp-activity.php:464
+#, php-format
+msgid "%s activity RSS Feed"
+msgstr ""
+
+#: ../wp-activity-feed.php:33
+#, php-format
+msgid "User events of %s"
+msgstr ""
+
+#: ../wp-activity.php:206
+msgid "Activity events"
+msgstr "Сбор сведения об активности пользователя на сайте"
+
+#: ../wp-activity.php:210
+msgid "Hide my activity :"
+msgstr "Скрыть мою активность :"
+
+#: ../wp-activity.php:214
+msgid "If selected, this option makes you become invisible in activity events."
+msgstr "Если вы отметите данную опцию, факты вашей активности на сайте не будут заноситься в журнал событий."
+
+#: ../wp-activity.php:402
+msgid "Last logon :"
+msgstr ""
+
+#: ../wp-activity.php:483
+#, php-format
+msgid "%s activity archive"
+msgstr ""
+
+#: ../wp-activity.php:483
+msgid "Archives"
+msgstr "Архив событий"
+
+#: ../wp-activity.php:573
+#: ../wp-activity.php:578
+msgid "View Profile"
+msgstr "Просмотреть профиль"
+
+#: ../wp-activity.php:587
+msgid "has logged in."
+msgstr "авторизовался на сайте"
+
+#: ../wp-activity.php:627
+msgid "published"
+msgstr "опубликовал"
+
+#: ../wp-activity.php:645
+msgid "edited"
+msgstr "отредактировал"
+
+#: ../wp-activity.php:654
+msgid "deleted"
+msgstr "удалил"
+
+#: ../wp-activity.php:683
+msgid "commented"
+msgstr "прокомментировал"
+
+#: ../wp-activity.php:712
+msgid "edited comment on"
+msgstr "произвел редактирование комментария"
+
+#: ../wp-activity.php:726
+msgid "deleted comment on"
+msgstr "удалил комментарий"
+
+#: ../wp-activity.php:734
+msgid "has registered."
+msgstr "зарегистрировался на сайте."
+
+#: ../wp-activity.php:742
+msgid "has updated his profile."
+msgstr "обновил профиль"
+
+#: ../wp-activity.php:756
+msgid "has added a link to"
+msgstr "добавил ссылку к"
+
+#: ../wp-activity.php:817
+msgid "weeks"
+msgstr "недели(-ль)"
+
+#: ../wp-activity.php:817
+msgid "week"
+msgstr "неделю"
+
+#: ../wp-activity.php:818
+#: ../wp-activity.php:822
+msgid "days"
+msgstr "дня(-ей)"
+
+#: ../wp-activity.php:818
+#: ../wp-activity.php:822
+msgid "day"
+msgstr "день"
+
+#: ../wp-activity.php:823
+#: ../wp-activity.php:827
+msgid "hours"
+msgstr "часа(-ов)"
+
+#: ../wp-activity.php:823
+#: ../wp-activity.php:827
+msgid "hour"
+msgstr "час"
+
+#: ../wp-activity.php:828
+#: ../wp-activity.php:832
+msgid "minutes"
+msgstr "минут(ы)"
+
+#: ../wp-activity.php:828
+#: ../wp-activity.php:832
+msgid "minute"
+msgstr "минуту"
+
+#: ../wp-activity.php:836
+msgid "seconds"
+msgstr "секунд(ы)"
+
+#: ../wp-activity.php:836
+msgid "second"
+msgstr "секунды"
+
+#: ../wp-activity.php:840
+#, php-format
+msgid "%s ago"
+msgstr "%s назад"
+
+#: ../wp-activity.php:855
+msgid "Display a stream of registered users events"
+msgstr ""
+
+#: ../wp-activity.php:861
+msgid "Wp-Activity Widget"
+msgstr "Wp-Activity Виджет"
+
+#: ../wp-activity.php:891
+#: ../wp-activity.php:958
+msgid "Title :"
+msgstr "Заголовок :"
+
+#: ../wp-activity.php:899
+msgid "Widget width (px) :"
+msgstr "Ширина виджета (в пикселях) :"
+
+#: ../wp-activity.php:908
+msgid "Display the logged user own activity"
+msgstr ""
+
+#: ../wp-activity.php:914
+msgid "Wp-Activity logged user own activity"
+msgstr ""
+
+#: ../wp-activity.php:946
+msgid "Your activity"
+msgstr ""
+
+#: ../wp-activity.php:968
+msgid "When viewed by visitor"
+msgstr ""
+
+#: ../wp-activity.php:970
+msgid "Display all users activity"
+msgstr ""
+
+#: ../wp-activity.php:972
+msgid "Display nothing"
+msgstr ""
+

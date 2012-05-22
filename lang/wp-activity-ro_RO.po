@@ -1,0 +1,1057 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Activity 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-10 08:40+0100\n"
+"PO-Revision-Date: 2012-05-10 08:40+0100\n"
+"Last-Translator: Dric <cedric@driczone.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+# @ wp-activity
+#: ../wp-act-admin.php:7
+msgid "Last login"
+msgstr "Ultima conectare"
+
+# @ wp-activity
+#: ../wp-act-admin.php:30
+msgid "Logon fails"
+msgstr "Log on nu reuşeşte"
+
+# @ default
+#: ../wp-act-admin.php:39
+msgid "Settings"
+msgstr "Setări"
+
+# @ default
+#: ../wp-act-admin.php:40
+msgid "Uninstall"
+msgstr "Dezinstalare"
+
+# @ wp-activity
+#: ../wp-act-admin.php:50
+msgid "Activity Log"
+msgstr "Activitate jurnal"
+
+# @ wp-activity
+#: ../wp-act-admin.php:51
+#: ../wp-act-admin.php:818
+#: ../wp-act-admin.php:835
+msgid "Activity Stats"
+msgstr "Activitatea Stats"
+
+# @ wp-activity
+#: ../wp-act-admin.php:52
+#: ../wp-act-admin.php:403
+msgid "WP-Activity Settings"
+msgstr "Setările WP-activitate"
+
+# @ default
+#: ../wp-act-admin.php:107
+#, fuzzy, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Afişarea %s – %s din %s"
+
+# @ wp-activity
+#: ../wp-act-admin.php:210
+msgid "Event(s) deleted."
+msgstr "Evenimentul sau evenimentele de şters."
+
+# @ wp-activity
+#: ../wp-act-admin.php:281
+#: ../wp-activity.php:463
+#: ../wp-activity.php:932
+msgid "Recent Activity"
+msgstr "Activitate recentă"
+
+# @ default
+#: ../wp-act-admin.php:296
+msgid "Bulk Actions"
+msgstr "Acţiuni în masă"
+
+# @ default
+#: ../wp-act-admin.php:297
+msgid "Delete"
+msgstr "Ştergere"
+
+# @ default
+#: ../wp-act-admin.php:303
+msgid "View all"
+msgstr "Vizualizare toate"
+
+# @ wp-activity
+#: ../wp-act-admin.php:309
+msgid "Order by date (DESC)"
+msgstr "Ordonare după data (DESC)"
+
+# @ wp-activity
+#: ../wp-act-admin.php:310
+msgid "Order by user"
+msgstr "Comanda de utilizator"
+
+# @ wp-activity
+#: ../wp-act-admin.php:311
+msgid "Order by event type"
+msgstr "Comanda de tip de eveniment"
+
+# @ wp-activity
+#: ../wp-act-admin.php:321
+msgid "All users"
+msgstr "Toţi utilizatorii"
+
+# @ wp-activity
+#: ../wp-act-admin.php:327
+#: ../wp-act-admin.php:342
+#: ../wp-act-admin.php:352
+#: ../wp-act-export.php:65
+msgid "User"
+msgstr "Utilizator"
+
+# @ wp-activity
+#: ../wp-act-admin.php:331
+#, fuzzy
+msgid "Data"
+msgstr "Data"
+
+# @ wp-activity
+#: ../wp-act-admin.php:341
+#: ../wp-act-admin.php:351
+#: ../wp-act-export.php:65
+msgid "Date"
+msgstr "Data"
+
+# @ wp-activity
+#: ../wp-act-admin.php:343
+#: ../wp-act-admin.php:353
+#: ../wp-act-export.php:65
+msgid "Event Type"
+msgstr "Tip de eveniment"
+
+# @ wp-activity
+#: ../wp-act-admin.php:344
+#: ../wp-act-admin.php:354
+#: ../wp-act-export.php:65
+msgid "Applies to"
+msgstr "Se aplică"
+
+# @ default
+#: ../wp-act-admin.php:384
+#, fuzzy
+msgid "Export filtered Data &raquo;"
+msgstr "Exportaţi datele filtrate»"
+
+# @ wp-activity
+#: ../wp-act-admin.php:385
+msgid "Delete exported data"
+msgstr "Ştergeţi datele exportate"
+
+# @ wp-activity
+#: ../wp-act-admin.php:386
+msgid "If you use MS Excel and have some ugly characters, rename the file extension to .txt and open it within Excel."
+msgstr "Dacă utilizaţi MS Excel şi au unele caractere urât, redenumiţi extensia de fişier .txt şi deschideţi-l în Excel."
+
+# @ default
+#: ../wp-act-admin.php:438
+msgid "Options saved."
+msgstr "Opţiuni salvate."
+
+# @ wp-activity
+#: ../wp-act-admin.php:443
+msgid "Activity logs deleted."
+msgstr "Jurnalele de activitate elimină."
+
+# @ wp-activity
+#: ../wp-act-admin.php:450
+#: ../wp-act-admin.php:461
+#, php-format
+msgid "Activity Plugin has been uninstalled. You can now desactivate this plugin : <a href=\"%s\">Plugins Page</a>"
+msgstr "Plugin Activitatea a fost dezinstalat. Puteţi desactivate acum acest plugin <a href=\"%s\">Plugins Page</a>"
+
+#: ../wp-act-admin.php:455
+msgid "Manual pruning done."
+msgstr "Tăiere manual făcut."
+
+# @ wp-activity
+#: ../wp-act-admin.php:478
+#: ../wp-act-admin.php:487
+msgid "Date format"
+msgstr "Format dată"
+
+# @ wp-activity
+#: ../wp-act-admin.php:479
+#: ../wp-act-admin.php:510
+msgid "Display options"
+msgstr "Opţiuni de afişare"
+
+# @ wp-activity
+#: ../wp-act-admin.php:480
+#: ../wp-act-admin.php:556
+msgid "Privacy options"
+msgstr "Opţiuni de confidenţialitate"
+
+# @ wp-activity
+#: ../wp-act-admin.php:481
+#: ../wp-act-admin.php:569
+msgid "Events logging and feeding"
+msgstr "Jurnal de evenimente şi hrănire"
+
+#: ../wp-act-admin.php:482
+#: ../wp-act-admin.php:612
+msgid "Blacklisting"
+msgstr "Pe lista neagră"
+
+# @ wp-activity
+#: ../wp-act-admin.php:483
+#: ../wp-act-admin.php:658
+msgid "Reset/uninstall"
+msgstr "A nu putea suporta/uninstall"
+
+# @ wp-activity
+#: ../wp-act-admin.php:490
+msgid "Date format : "
+msgstr "Formatul datei: "
+
+# @ wp-activity
+#: ../wp-act-admin.php:497
+msgid "For events that are more than a month old only, or if you dont use relative dates."
+msgstr "Pentru evenimente care sunt mai mult de o lună vechi, sau dacă nu utilizaţi datele relative."
+
+# @ wp-activity
+#: ../wp-act-admin.php:500
+msgid "Use relative dates : "
+msgstr "Utilizaţi date relative: "
+
+# @ wp-activity
+#: ../wp-act-admin.php:503
+msgid "Relatives dates exemples : 1 day ago, 22 hours and 3 minutes ago, etc."
+msgstr "Rudele datele exemples: 1 zi în urmă, de la 22 de ore şi 3 minute în urmă, etc."
+
+# @ default
+#: ../wp-act-admin.php:507
+#: ../wp-act-admin.php:553
+#: ../wp-act-admin.php:566
+#: ../wp-act-admin.php:609
+#: ../wp-act-admin.php:653
+#, fuzzy
+msgid "Update options &raquo;"
+msgstr "Opţiuni de actualizare»"
+
+# @ wp-activity
+#: ../wp-act-admin.php:513
+msgid "Display icons : "
+msgstr "Afişa pictograme: "
+
+# @ wp-activity
+#: ../wp-act-admin.php:514
+msgid "Generic icons "
+msgstr "Icoane generic "
+
+# @ wp-activity
+#: ../wp-act-admin.php:516
+msgid "Gravatars for profile edit and connect events icons"
+msgstr "Gravatars pentru profil editare şi conectaţi evenimente icoane"
+
+# @ wp-activity
+#: ../wp-act-admin.php:517
+msgid "No icons "
+msgstr "Nu icoane "
+
+# @ wp-activity
+#: ../wp-act-admin.php:519
+msgid "Highlight new activity since last user login : "
+msgstr "Evidenţia noua activitate din ultima user login: "
+
+#: ../wp-act-admin.php:523
+msgid "Use auto-refreshing : "
+msgstr ""
+
+# @ wp-activity
+#: ../wp-act-admin.php:527
+#: ../wp-activity.php:874
+#: ../wp-activity.php:878
+msgid "minute"
+msgstr "minute"
+
+# @ wp-activity
+#: ../wp-act-admin.php:528
+#: ../wp-act-admin.php:529
+#: ../wp-act-admin.php:530
+#: ../wp-act-admin.php:531
+#: ../wp-act-admin.php:532
+#: ../wp-activity.php:874
+#: ../wp-activity.php:878
+msgid "minutes"
+msgstr "minute"
+
+#: ../wp-act-admin.php:534
+msgid "Activity displayed on frontend can be auto-refreshed by AJAX. You can specify the delay between 2 refreshes."
+msgstr ""
+
+# @ wp-activity
+#: ../wp-act-admin.php:538
+msgid "Display a link to the activity archive page : "
+msgstr "Afişa un link la pagina de Arhiva de activitate: "
+
+# @ wp-activity
+#: ../wp-act-admin.php:542
+msgid "You have to create a page first, with the [ACT_STREAM] shortcode."
+msgstr "Trebuie să creaţi o pagină în primul rând, cu shortcode [ACT_STREAM]."
+
+# @ wp-activity
+#: ../wp-act-admin.php:546
+msgid "Author Path : "
+msgstr "Calea de autor: "
+
+# @ wp-activity
+#: ../wp-act-admin.php:549
+msgid "If you modified your author structure link or if you use WPMu, change your path. (Default : author, BuddyPress : members)"
+msgstr "Dacă aţi modificat autor structura link-ul tau sau dacă utilizaţi WPMu, modificaţi calea ta. (Implicit: autor, BuddyPress: membrii)"
+
+# @ wp-activity
+#: ../wp-act-admin.php:559
+msgid "Prevent users to hide their activity : "
+msgstr "Împiedică utilizatorii pentru a ascunde activitatea lor: "
+
+# @ wp-activity
+#: ../wp-act-admin.php:562
+msgid "Warning : If you activate this option, users won't have the choice to allow or deny the logging of their activity. For privacy respect, this option should stay desactivated."
+msgstr "AVERTISMENT: Dacă activaţi această opţiune, utilizatorii nu vor avea posibilitatea de a permite sau a refuza înregistrarea lor activitate. Pentru respectarea vieții private, această opţiune ar trebui să staţi desactivated."
+
+# @ wp-activity
+#: ../wp-act-admin.php:572
+msgid "Rows limit in database : "
+msgstr "Limita de rânduri în baza de date: "
+
+#: ../wp-act-admin.php:573
+msgid "Manually prune table"
+msgstr "Manual de prune tabel"
+
+# @ wp-activity
+#: ../wp-act-admin.php:574
+#, php-format
+msgid "There is currently %s rows in database."
+msgstr "În prezent nu există rânduri %s în baza de date."
+
+# @ wp-activity
+#: ../wp-act-admin.php:577
+msgid "Display activity RSS feed : "
+msgstr "Afişează activitatea RSS feed: "
+
+# @ wp-activity
+#: ../wp-act-admin.php:580
+msgid "Log login failures : "
+msgstr "Eşecuri login log: "
+
+# @ wp-activity
+#: ../wp-act-admin.php:583
+msgid "If you want to log all connexions attempts that failed, enable this option."
+msgstr "Dacă doriţi să vă conectaţi toate încercările de connexions care nu a reuşit, activaţi această opţiune."
+
+# @ wp-activity
+#: ../wp-act-admin.php:586
+msgid "Log in database"
+msgstr "Log in baza de date"
+
+# @ wp-activity
+#: ../wp-act-admin.php:586
+msgid "Display in feed"
+msgstr "Afişa în furaje"
+
+# @ wp-activity
+#: ../wp-act-admin.php:588
+msgid "Login events : "
+msgstr "Evenimente de autentificare: "
+
+# @ wp-activity
+#: ../wp-act-admin.php:592
+#, fuzzy
+msgid "Profile update/new user events : "
+msgstr "Profil update evenimente: "
+
+# @ wp-activity
+#: ../wp-act-admin.php:596
+#, fuzzy
+msgid "Post creation/update/deletion events : "
+msgstr "Post crearea/actualizare evenimente: "
+
+# @ wp-activity
+#: ../wp-act-admin.php:600
+msgid "New comment events : "
+msgstr "Nou comentariu evenimente: "
+
+# @ wp-activity
+#: ../wp-act-admin.php:604
+msgid "New link events : "
+msgstr "Nou link-ul de evenimente: "
+
+#: ../wp-act-admin.php:615
+msgid "Activate blacklisting"
+msgstr "Activa pe lista neagră"
+
+#: ../wp-act-admin.php:618
+msgid "Blacklisting allow to deny access to your blog for specified IP addresses."
+msgstr "Pe lista neagră a permite să împiedice accesul la blog-ul pentru specificate de adrese IP."
+
+#: ../wp-act-admin.php:622
+msgid "Blacklist on wp-login.php only"
+msgstr "Lista neagră pe wp-login.php numai"
+
+#: ../wp-act-admin.php:625
+msgid "Check this option if you don't have any frontend login form. For more blog performance, this option should be enabled when possible."
+msgstr "Verificaţi această opţiune dacă nu aveţi orice formă de interfat de login. Pentru mai multe blog-ul de performanţă, această opţiune ar trebui să fie activat atunci când este posibil."
+
+#: ../wp-act-admin.php:630
+msgid "Auto-Blacklist IP after "
+msgstr ""
+
+#: ../wp-act-admin.php:638
+msgid "failed logon attempts"
+msgstr ""
+
+#: ../wp-act-admin.php:642
+msgid "If checked, IP addresses will be automatically added to the blacklist after x failed logon attempts during the last 48h."
+msgstr ""
+
+#: ../wp-act-admin.php:646
+msgid "IP list"
+msgstr "Lista de IP"
+
+#: ../wp-act-admin.php:649
+msgid "One IP per line. Don't blacklist your own IP ! Examples:"
+msgstr "O anchetă pe linie. Nu blacklist IP-ul propriu! Exemple:"
+
+# @ wp-activity
+#: ../wp-act-admin.php:661
+msgid "Empty activity table : "
+msgstr "Tabelul activitate goală: "
+
+# @ wp-activity
+#: ../wp-act-admin.php:668
+msgid "Reset logs"
+msgstr "Reiniţializare jurnalele"
+
+# @ wp-activity
+#: ../wp-act-admin.php:668
+#, fuzzy
+msgid ""
+"Empty activity table ? All your activity logs will be deleted.\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to proceed.\\n"
+msgstr ""
+"Activiteiten tabel leegmaken ? Al je activiteiten logs zullen verwijderd worden.\n"
+"\n"
+"Kies [Annuleren] om te stoppen, [OK] om verder te gaan.\n"
+
+# @ wp-activity
+#: ../wp-act-admin.php:669
+msgid "Warning : cleaning activity table erase all activity logs."
+msgstr "AVERTISMENT: curăţare activitatea tabelul şterge toate jurnalele de activitate."
+
+# @ wp-activity
+#: ../wp-act-admin.php:673
+#: ../wp-act-admin.php:680
+msgid "Uninstall plugin"
+msgstr "Dezinstalaţi plugin"
+
+# @ wp-activity
+#: ../wp-act-admin.php:680
+#, fuzzy
+msgid ""
+"Uninstall plugin ? Settings and activity logs will be deleted.\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to proceed.\\n"
+msgstr ""
+"Plugin installatie ongedaan maken ? Instellingen en activiteiten logs zullen verwijderd worden.\n"
+"\n"
+"Kies [Annuleren] om te stoppen, [OK] om verder te gaan.\n"
+
+# @ wp-activity
+#: ../wp-act-admin.php:681
+msgid "Warning : This will delete settings and activity table."
+msgstr "AVERTISMENT: Acest lucru va şterge setările şi tabelul activitate."
+
+# @ wp-activity
+#: ../wp-act-admin.php:690
+#, php-format
+msgid "WP-Activity is a plugin by <a href=\"http://www.driczone.net\">Dric</a>. Version <strong>%s</strong>."
+msgstr "> Dric</a>. Versiunea <strong>%s</strong>."
+
+# @ wp-activity
+#: ../wp-act-admin.php:764
+#, fuzzy
+msgid "Successful user login(s)"
+msgstr "Login(s) utilizator de succes"
+
+#: ../wp-act-admin.php:765
+msgid "New registered user(s)"
+msgstr ""
+
+# @ wp-activity
+#: ../wp-act-admin.php:766
+#, fuzzy
+msgid "Login attempt(s) failed"
+msgstr "Attempt(s) login nu a reușit"
+
+#: ../wp-act-admin.php:767
+msgid "Access(es) denied"
+msgstr "Access(ES) denied"
+
+# @ wp-activity
+#: ../wp-act-admin.php:768
+#, fuzzy
+msgid "Profile(s) edited"
+msgstr "Profiluri editat"
+
+# @ wp-activity
+#: ../wp-act-admin.php:769
+#, fuzzy
+msgid "Post(s) created"
+msgstr "Posturilor creat"
+
+# @ wp-activity
+#: ../wp-act-admin.php:770
+#, fuzzy
+msgid "Post(s) edited"
+msgstr "Posturilor editat"
+
+# @ wp-activity
+#: ../wp-act-admin.php:771
+#, fuzzy
+msgid "Post(s) deleted"
+msgstr "Posturilor editat"
+
+# @ wp-activity
+#: ../wp-act-admin.php:772
+#, fuzzy
+msgid "Comment(s) added"
+msgstr "Comment (s) adaugă"
+
+# @ wp-activity
+#: ../wp-act-admin.php:773
+#, fuzzy
+msgid "Link(s) added"
+msgstr "Linkurile adaugă"
+
+# @ wp-activity
+#: ../wp-act-admin.php:778
+msgid "Close"
+msgstr "Închide"
+
+#: ../wp-act-admin.php:779
+msgid "&#x3c;Prev"
+msgstr ""
+
+#: ../wp-act-admin.php:780
+msgid "Next&#x3e;"
+msgstr ""
+
+# @ wp-activity
+#: ../wp-act-admin.php:781
+msgid "Current"
+msgstr "Curent"
+
+# @ default
+#: ../wp-act-admin.php:782
+msgid "January"
+msgstr "Ianuarie"
+
+# @ default
+#: ../wp-act-admin.php:782
+msgid "February"
+msgstr "Februarie"
+
+# @ default
+#: ../wp-act-admin.php:782
+msgid "March"
+msgstr "Martie"
+
+# @ default
+#: ../wp-act-admin.php:782
+msgid "April"
+msgstr "Aprilie"
+
+# @ default
+#: ../wp-act-admin.php:782
+msgid "May"
+msgstr "Mai"
+
+# @ default
+#: ../wp-act-admin.php:782
+msgid "June"
+msgstr "Iunie"
+
+# @ default
+#: ../wp-act-admin.php:783
+msgid "July"
+msgstr "Iulie"
+
+# @ default
+#: ../wp-act-admin.php:783
+msgid "August"
+msgstr "August"
+
+# @ default
+#: ../wp-act-admin.php:783
+msgid "September"
+msgstr "Septembrie"
+
+# @ default
+#: ../wp-act-admin.php:783
+msgid "October"
+msgstr "Octombrie"
+
+# @ default
+#: ../wp-act-admin.php:783
+msgid "November"
+msgstr "Noiembrie"
+
+# @ default
+#: ../wp-act-admin.php:783
+msgid "December"
+msgstr "Decembrie"
+
+# @ default
+#: ../wp-act-admin.php:784
+msgid "Jan_January_abbreviation"
+msgstr "Jan_January_abbreviation"
+
+# @ default
+#: ../wp-act-admin.php:784
+msgid "Feb_February_abbreviation"
+msgstr "Feb_February_abbreviation"
+
+# @ default
+#: ../wp-act-admin.php:784
+msgid "Mar_March_abbreviation"
+msgstr "Mar_March_abbreviation"
+
+# @ default
+#: ../wp-act-admin.php:784
+msgid "Apr_April_abbreviation"
+msgstr "Apr_April_abbreviation"
+
+# @ default
+#: ../wp-act-admin.php:784
+msgid "May_May_abbreviation"
+msgstr "May_May_abbreviation"
+
+# @ default
+#: ../wp-act-admin.php:784
+msgid "Jun_June_abbreviation"
+msgstr "Jun_June_abbreviation"
+
+# @ default
+#: ../wp-act-admin.php:785
+msgid "Jul_July_abbreviation"
+msgstr "Jul_July_abbreviation"
+
+# @ default
+#: ../wp-act-admin.php:785
+msgid "Aug_August_abbreviation"
+msgstr "Aug_August_abbreviation"
+
+# @ default
+#: ../wp-act-admin.php:785
+msgid "Sep_September_abbreviation"
+msgstr "Sep_September_abbreviation"
+
+# @ default
+#: ../wp-act-admin.php:785
+msgid "Oct_October_abbreviation"
+msgstr "Oct_October_abbreviation"
+
+# @ default
+#: ../wp-act-admin.php:785
+msgid "Nov_November_abbreviation"
+msgstr "Nov_November_abbreviation"
+
+# @ default
+#: ../wp-act-admin.php:785
+msgid "Dec_December_abbreviation"
+msgstr "Dec_December_abbreviation"
+
+# @ default
+#: ../wp-act-admin.php:786
+msgid "Sunday"
+msgstr "Duminică"
+
+# @ default
+#: ../wp-act-admin.php:786
+msgid "Monday"
+msgstr "Luni"
+
+# @ default
+#: ../wp-act-admin.php:786
+msgid "Tuesday"
+msgstr "Marţi"
+
+# @ default
+#: ../wp-act-admin.php:786
+msgid "Wednesday"
+msgstr "Miercuri"
+
+# @ default
+#: ../wp-act-admin.php:786
+msgid "Thursday"
+msgstr "Joi"
+
+# @ default
+#: ../wp-act-admin.php:786
+msgid "Friday"
+msgstr "Vineri"
+
+# @ default
+#: ../wp-act-admin.php:786
+msgid "Saturday"
+msgstr "Sâmbătă"
+
+# @ default
+#: ../wp-act-admin.php:787
+msgid "Sun"
+msgstr "Soare"
+
+# @ default
+#: ../wp-act-admin.php:787
+msgid "Mon"
+msgstr "Lun"
+
+# @ default
+#: ../wp-act-admin.php:787
+msgid "Tue"
+msgstr "Marti"
+
+# @ default
+#: ../wp-act-admin.php:787
+msgid "Wed"
+msgstr "Miercuri"
+
+# @ default
+#: ../wp-act-admin.php:787
+msgid "Thu"
+msgstr "Joi"
+
+# @ default
+#: ../wp-act-admin.php:787
+msgid "Fri"
+msgstr "Vineri"
+
+# @ default
+#: ../wp-act-admin.php:787
+msgid "Sat"
+msgstr "Sat"
+
+# @ default
+#: ../wp-act-admin.php:788
+msgid "S_Sunday_initial"
+msgstr "S_Sunday_initial"
+
+# @ default
+#: ../wp-act-admin.php:788
+msgid "M_Monday_initial"
+msgstr "M_Monday_initial"
+
+# @ default
+#: ../wp-act-admin.php:788
+msgid "T_Tuesday_initial"
+msgstr "T_Tuesday_initial"
+
+# @ default
+#: ../wp-act-admin.php:788
+msgid "W_Wednesday_initial"
+msgstr "W_Wednesday_initial"
+
+# @ default
+#: ../wp-act-admin.php:788
+msgid "T_Thursday_initial"
+msgstr "T_Thursday_initial"
+
+# @ default
+#: ../wp-act-admin.php:788
+msgid "F_Friday_initial"
+msgstr "F_Friday_initial"
+
+# @ default
+#: ../wp-act-admin.php:788
+msgid "S_Saturday_initial"
+msgstr "S_Saturday_initial"
+
+# @ wp-activity
+#: ../wp-act-admin.php:823
+msgid "Date range"
+msgstr "Interval"
+
+# @ wp-activity
+#: ../wp-act-admin.php:838
+#: ../wp-activity.php:940
+#: ../wp-activity.php:1008
+msgid "Events number :"
+msgstr "Numărul de evenimente:"
+
+# @ wp-activity
+#: ../wp-act-admin.php:850
+msgid "See data for"
+msgstr "A se vedea date pentru"
+
+# @ wp-activity
+#: ../wp-activity-feed.php:16
+msgid "New visit"
+msgstr "Nouă vizită"
+
+# @ wp-activity
+#: ../wp-activity-feed.php:17
+msgid "New post"
+msgstr "Nou post"
+
+# @ wp-activity
+#: ../wp-activity-feed.php:18
+msgid "Post edited"
+msgstr "Post editat"
+
+# @ wp-activity
+#: ../wp-activity-feed.php:19
+#, fuzzy
+msgid "Post deleted"
+msgstr "Post editat"
+
+# @ wp-activity
+#: ../wp-activity-feed.php:20
+msgid "Profile edited"
+msgstr "Profil editat"
+
+# @ wp-activity
+#: ../wp-activity-feed.php:21
+msgid "New comment"
+msgstr "Comentariu nou"
+
+# @ wp-activity
+#: ../wp-activity-feed.php:22
+#, fuzzy
+msgid "Comment edited"
+msgstr "Comment (s) adaugă"
+
+# @ wp-activity
+#: ../wp-activity-feed.php:23
+#, fuzzy
+msgid "Comment deleted"
+msgstr "Comment (s) adaugă"
+
+# @ wp-activity
+#: ../wp-activity-feed.php:24
+msgid "New link"
+msgstr "Nou link"
+
+# @ wp-activity
+#: ../wp-activity-feed.php:31
+#: ../wp-activity.php:496
+#, php-format
+msgid "%s activity RSS Feed"
+msgstr "activitatea %s RSS Feed"
+
+# @ wp-activity
+#: ../wp-activity-feed.php:33
+#, php-format
+msgid "User events of %s"
+msgstr "Utilizator evenimentele din %s"
+
+# @ wp-activity
+#: ../wp-activity.php:213
+msgid "Activity events"
+msgstr "Evenimente de activitate"
+
+# @ wp-activity
+#: ../wp-activity.php:217
+msgid "Hide my activity :"
+msgstr "Ascunde activitatea mea:"
+
+# @ wp-activity
+#: ../wp-activity.php:221
+msgid "If selected, this option makes you become invisible in activity events."
+msgstr "Dacă selectat, această opţiune face să devină invizibil în activitatea de evenimente."
+
+# @ wp-activity
+#: ../wp-activity.php:409
+msgid "Last logon :"
+msgstr "Ultimul log on:"
+
+# @ wp-activity
+#: ../wp-activity.php:467
+#, php-format
+msgid "%s activity archive"
+msgstr "%s activitatea Arhiva"
+
+# @ wp-activity
+#: ../wp-activity.php:467
+msgid "Archives"
+msgstr "Arhivele"
+
+# @ wp-activity
+#: ../wp-activity.php:616
+#: ../wp-activity.php:621
+msgid "View Profile"
+msgstr "Vizualizare profil"
+
+# @ wp-activity
+#: ../wp-activity.php:630
+#, fuzzy
+msgid "has logged in."
+msgstr "a înregistrat în jurnal."
+
+# @ wp-activity
+#: ../wp-activity.php:670
+msgid "published"
+msgstr "publicat"
+
+# @ wp-activity
+#: ../wp-activity.php:688
+msgid "edited"
+msgstr "editat"
+
+# @ default
+#: ../wp-activity.php:697
+#, fuzzy
+msgid "deleted"
+msgstr "Ştergere"
+
+# @ wp-activity
+#: ../wp-activity.php:726
+msgid "commented"
+msgstr "a comentat"
+
+# @ wp-activity
+#: ../wp-activity.php:755
+#, fuzzy
+msgid "edited comment on"
+msgstr "Comentariu nou"
+
+# @ wp-activity
+#: ../wp-activity.php:769
+#, fuzzy
+msgid "deleted comment on"
+msgstr "Comentariu nou"
+
+# @ wp-activity
+#: ../wp-activity.php:777
+#, fuzzy
+msgid "has registered."
+msgstr "a înregistrat în jurnal."
+
+# @ wp-activity
+#: ../wp-activity.php:785
+msgid "has updated his profile."
+msgstr "-a actualizat Profil."
+
+# @ wp-activity
+#: ../wp-activity.php:799
+msgid "has added a link to"
+msgstr "a adăugat un link la"
+
+# @ wp-activity
+#: ../wp-activity.php:863
+msgid "weeks"
+msgstr "săptămâni"
+
+# @ wp-activity
+#: ../wp-activity.php:863
+msgid "week"
+msgstr "săptămână"
+
+# @ wp-activity
+#: ../wp-activity.php:864
+#: ../wp-activity.php:868
+msgid "days"
+msgstr "zile"
+
+# @ wp-activity
+#: ../wp-activity.php:864
+#: ../wp-activity.php:868
+msgid "day"
+msgstr "zi"
+
+# @ wp-activity
+#: ../wp-activity.php:869
+#: ../wp-activity.php:873
+msgid "hours"
+msgstr "ore"
+
+# @ wp-activity
+#: ../wp-activity.php:869
+#: ../wp-activity.php:873
+msgid "hour"
+msgstr "oră"
+
+# @ wp-activity
+#: ../wp-activity.php:882
+msgid "seconds"
+msgstr "secunde"
+
+# @ wp-activity
+#: ../wp-activity.php:882
+msgid "second"
+msgstr "al doilea"
+
+# @ wp-activity
+#: ../wp-activity.php:886
+#, php-format
+msgid "%s ago"
+msgstr "%s în urmă"
+
+# @ wp-activity
+#: ../wp-activity.php:901
+msgid "Display a stream of registered users events"
+msgstr "Afişa un flux de utilizatorii înregistraţi evenimente"
+
+# @ wp-activity
+#: ../wp-activity.php:907
+msgid "Wp-Activity Widget"
+msgstr "WP-activitate Widget"
+
+# @ wp-activity
+#: ../wp-activity.php:936
+#: ../wp-activity.php:1003
+msgid "Title :"
+msgstr "Titlu:"
+
+#: ../wp-activity.php:944
+msgid "Widget width (px) :"
+msgstr ""
+
+# @ wp-activity
+#: ../wp-activity.php:953
+msgid "Display the logged user own activity"
+msgstr "Afişează activitatea propriu utilizator conectat"
+
+# @ wp-activity
+#: ../wp-activity.php:959
+msgid "Wp-Activity logged user own activity"
+msgstr "WP-activitate conectat activitatea proprie utilizatorului"
+
+# @ wp-activity
+#: ../wp-activity.php:991
+msgid "Your activity"
+msgstr "Activitatea ta"
+
+# @ wp-activity
+#: ../wp-activity.php:1013
+msgid "When viewed by visitor"
+msgstr "Când vizualizat de vizitatori"
+
+# @ wp-activity
+#: ../wp-activity.php:1015
+msgid "Display all users activity"
+msgstr "Afişa întreaga activitate a utilizatorilor"
+
+# @ wp-activity
+#: ../wp-activity.php:1017
+msgid "Display nothing"
+msgstr "Afişa nimic"
+
