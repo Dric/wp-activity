@@ -3,8 +3,8 @@ Contributors: Dric1107
 Donate link: http://www.driczone.net/blog
 Tags: stream, activity, community, multi-users, log, event, monitor, stats, blacklist, tracking, access, security, login
 Requires at least: 3.1
-Tested up to: 3.3.2
-Stable tag: 1.9.2
+Tested up to: 3.5
+Stable tag: 2.0
 
 Monitor and display registered users activity (logins, posts, comments, etc.). You can also track and prevent hackering attemps, with IP blacklisting.
 
@@ -53,6 +53,7 @@ Translations :
 - Spanish (Thx to Cscean - translated up to v1.3)
 - Romanian (Thx to Web Geeks - translated up to v1.7)
 - Dutch (Thx to Tom - translated up to v1.8.1)
+- Swedish (Thx to Per Söderman - translated up to v1.9.2)
 - Russian (Thx to Semyon Nikiforov - partially translated)
 
 (If you translated my plugin, please send the translated .po file at cedric@driczone.net )
