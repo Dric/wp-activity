@@ -1,0 +1,898 @@
+# Translation of the WordPress plugin WP-Activity 0.8 by Dric.
+# Copyright (C) 2010 Dric
+# This file is distributed under the same license as the WP-Activity package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Activity 1.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-23 16:41+0100\n"
+"PO-Revision-Date: 2012-05-14 22:44+0100\n"
+"Last-Translator: Per Söderman <fejan@home.se>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-act-admin.php:7
+msgid "Last login"
+msgstr "Senaste login"
+
+#: ../wp-act-admin.php:30
+msgid "Logon fails"
+msgstr "Misslyckad inloggning"
+
+#: ../wp-act-admin.php:39
+msgid "Settings"
+msgstr "Inställningar"
+
+#: ../wp-act-admin.php:40
+msgid "Uninstall"
+msgstr "Avinstallera"
+
+#: ../wp-act-admin.php:50
+msgid "Activity Log"
+msgstr "Aktivitets Logg"
+
+#: ../wp-act-admin.php:51
+#: ../wp-act-admin.php:802
+#: ../wp-act-admin.php:819
+msgid "Activity Stats"
+msgstr "Aktivitets Stat"
+
+#: ../wp-act-admin.php:52
+#: ../wp-act-admin.php:403
+msgid "WP-Activity Settings"
+msgstr "WP-Activity Inställningar"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:107
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Visning %s&#8211;%s av %s"
+
+#: ../wp-act-admin.php:210
+msgid "Event(s) deleted."
+msgstr "Händelse(r) raderad(e)"
+
+#: ../wp-act-admin.php:281
+#: ../wp-activity.php:479
+#: ../wp-activity.php:887
+msgid "Recent Activity"
+msgstr "Senaste aktivitet"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:296
+msgid "Bulk Actions"
+msgstr "Bulk Aktions"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:297
+msgid "Delete"
+msgstr "Tabort"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:303
+msgid "View all"
+msgstr "Visa alla"
+
+#: ../wp-act-admin.php:309
+msgid "Order by date (DESC)"
+msgstr "Datumordning (Fallande)"
+
+#: ../wp-act-admin.php:310
+msgid "Order by user"
+msgstr "Användarordning"
+
+#: ../wp-act-admin.php:311
+msgid "Order by event type"
+msgstr "Händelseordning"
+
+#: ../wp-act-admin.php:321
+msgid "All users"
+msgstr "Alla användare"
+
+#: ../wp-act-admin.php:327
+#: ../wp-act-admin.php:342
+#: ../wp-act-admin.php:352
+#: ../wp-act-export.php:65
+msgid "User"
+msgstr "Användare"
+
+#: ../wp-act-admin.php:331
+msgid "Data"
+msgstr "Data"
+
+#: ../wp-act-admin.php:341
+#: ../wp-act-admin.php:351
+#: ../wp-act-export.php:65
+msgid "Date"
+msgstr "Datum"
+
+#: ../wp-act-admin.php:343
+#: ../wp-act-admin.php:353
+#: ../wp-act-export.php:65
+msgid "Event Type"
+msgstr "Händelsetyp"
+
+#: ../wp-act-admin.php:344
+#: ../wp-act-admin.php:354
+#: ../wp-act-export.php:65
+msgid "Applies to"
+msgstr "Applicera på"
+
+#: ../wp-act-admin.php:384
+msgid "Export filtered Data &raquo;"
+msgstr "Exportera filtrerat Data &raquo;"
+
+#: ../wp-act-admin.php:385
+msgid "Delete exported data"
+msgstr "Tabort exporterat data"
+
+#: ../wp-act-admin.php:386
+msgid "If you use MS Excel and have some ugly characters, rename the file extension to .txt and open it within Excel."
+msgstr "Om du använder MS Excel och har några okända tecken, döp om filen till .txt och öppna den i Excel."
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:437
+msgid "Options saved."
+msgstr "Alternativ sparade."
+
+#: ../wp-act-admin.php:442
+msgid "Activity logs deleted."
+msgstr "Aktivitetslogg borttagen."
+
+#: ../wp-act-admin.php:449
+#: ../wp-act-admin.php:460
+#, php-format
+msgid "Activity Plugin has been uninstalled. You can now desactivate this plugin : <a href=\"%s\">Plugins Page</a>"
+msgstr "Tillägget Activity har avinstallerats. Du kan nu inaktivera tillägget: <a href=\"%s\">Tilläggssidan</a>"
+
+#: ../wp-act-admin.php:454
+msgid "Manual pruning done."
+msgstr "Manuell rensing utförd."
+
+#: ../wp-act-admin.php:477
+#: ../wp-act-admin.php:486
+msgid "Date format"
+msgstr "Datumformat"
+
+#: ../wp-act-admin.php:478
+#: ../wp-act-admin.php:509
+msgid "Display options"
+msgstr "Visa alternativ"
+
+#: ../wp-act-admin.php:479
+#: ../wp-act-admin.php:540
+msgid "Privacy options"
+msgstr "Alternativ Integritet"
+
+#: ../wp-act-admin.php:480
+#: ../wp-act-admin.php:553
+msgid "Events logging and feeding"
+msgstr "Händelselogging och feeding"
+
+#: ../wp-act-admin.php:481
+#: ../wp-act-admin.php:596
+msgid "Blacklisting"
+msgstr "Svartlistning"
+
+#: ../wp-act-admin.php:482
+#: ../wp-act-admin.php:642
+msgid "Reset/uninstall"
+msgstr "Återställning/avinstallering"
+
+#: ../wp-act-admin.php:489
+msgid "Date format : "
+msgstr "Datumformat:"
+
+#: ../wp-act-admin.php:496
+msgid "For events that are more than a month old only, or if you dont use relative dates."
+msgstr "För händelser som är mer än en månad gamla bara, eller om du inte använder relativa datum."
+
+#: ../wp-act-admin.php:499
+msgid "Use relative dates : "
+msgstr "Använd relativa datum :"
+
+#: ../wp-act-admin.php:502
+msgid "Relatives dates exemples : 1 day ago, 22 hours and 3 minutes ago, etc."
+msgstr "Relativa datumex: 1 dag sedan, 22 timmar och 3 minuter sedan, osv."
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:506
+#: ../wp-act-admin.php:537
+#: ../wp-act-admin.php:550
+#: ../wp-act-admin.php:593
+#: ../wp-act-admin.php:637
+msgid "Update options &raquo;"
+msgstr "Alternativ uppdatering &raquo;"
+
+#: ../wp-act-admin.php:512
+msgid "Display icons : "
+msgstr "Visa ikoner :"
+
+#: ../wp-act-admin.php:513
+msgid "Generic icons "
+msgstr "Allmänna ikoner"
+
+#: ../wp-act-admin.php:515
+msgid "Gravatars for profile edit and connect events icons"
+msgstr "Gravatars för profilen, redigera och connect händelse ikon"
+
+#: ../wp-act-admin.php:516
+msgid "No icons "
+msgstr "Inga ikoner"
+
+#: ../wp-act-admin.php:518
+msgid "Highlight new activity since last user login : "
+msgstr "Markera ny aktivitet sedan senast användare loggat in :"
+
+#: ../wp-act-admin.php:522
+msgid "Display a link to the activity archive page : "
+msgstr "Visa en länk för arkiverad aktivitets sida : "
+
+#: ../wp-act-admin.php:526
+msgid "You have to create a page first, with the [ACT_STREAM] shortcode."
+msgstr "Du måste skapa en sida först, med [ACT_STREAM] shortcode."
+
+#: ../wp-act-admin.php:530
+msgid "Author Path : "
+msgstr "Sökväg författare :"
+
+#: ../wp-act-admin.php:533
+msgid "If you modified your author structure link or if you use WPMu, change your path. (Default : author, BuddyPress : members)"
+msgstr "Om du har ändrat din författar-struktur och länk eller om du använder WPMu, ändra din sökväg. (Standard: författare, BuddyPress: medlem)"
+
+#: ../wp-act-admin.php:543
+msgid "Prevent users to hide their activity : "
+msgstr "Förhindra användare att dölja deras aktiviteter : "
+
+#: ../wp-act-admin.php:546
+msgid "Warning : If you activate this option, users won't have the choice to allow or deny the logging of their activity. For privacy respect, this option should stay desactivated."
+msgstr "Varning: Om du aktiverar detta alternativ kan användarna inte tillåta eller neka loggning av deras aktivitet. Om sekretess skall hållas så bör detta alternativ omarkerat."
+
+#: ../wp-act-admin.php:556
+msgid "Rows limit in database : "
+msgstr "Limit av antal rader i databasen :"
+
+#: ../wp-act-admin.php:557
+msgid "Manually prune table"
+msgstr "Manuell rensing av tabell"
+
+#: ../wp-act-admin.php:558
+#, php-format
+msgid "There is currently %s rows in database."
+msgstr "Det är för närvarande %s rader i databasen."
+
+#: ../wp-act-admin.php:561
+msgid "Display activity RSS feed : "
+msgstr "Visa RSS feed aktiviteter :"
+
+#: ../wp-act-admin.php:564
+msgid "Log login failures : "
+msgstr "Logga misslyckade login :"
+
+#: ../wp-act-admin.php:567
+msgid "If you want to log all connexions attempts that failed, enable this option."
+msgstr "Om du vill logga alla misslyckade connection försök, markera detta alternativ."
+
+#: ../wp-act-admin.php:570
+msgid "Log in database"
+msgstr "Logg i databasen"
+
+#: ../wp-act-admin.php:570
+msgid "Display in feed"
+msgstr "Visa feed"
+
+#: ../wp-act-admin.php:572
+msgid "Login events : "
+msgstr "Login händelser : "
+
+#: ../wp-act-admin.php:576
+msgid "Profile update/new user events : "
+msgstr "Uppdatering profil/ny användare händelse :"
+
+#: ../wp-act-admin.php:580
+msgid "Post creation/update/deletion events : "
+msgstr "Skapa/uppdatera/tabort händelse :"
+
+#: ../wp-act-admin.php:584
+msgid "New comment events : "
+msgstr "Ny kommentarshändelse :"
+
+#: ../wp-act-admin.php:588
+msgid "New link events : "
+msgstr "Ny länkhändelse :"
+
+#: ../wp-act-admin.php:599
+msgid "Activate blacklisting"
+msgstr "Aktivera svartlistning"
+
+#: ../wp-act-admin.php:602
+msgid "Blacklisting allow to deny access to your blog for specified IP addresses."
+msgstr "Svartlistning tillåter att att neka access till din blogg för angivna IP adresser"
+
+#: ../wp-act-admin.php:606
+msgid "Blacklist on wp-login.php only"
+msgstr "Svartlistning endast för wp-login.php"
+
+#: ../wp-act-admin.php:609
+msgid "Check this option if you don't have any frontend login form. For more blog performance, this option should be enabled when possible."
+msgstr "Markera detta alternativ om du inte har ett loginformulär front end. För mer blogg prestanda, så bör detta vara påslaget om möjligt."
+
+#: ../wp-act-admin.php:614
+msgid "Auto-Blacklist IP after "
+msgstr "Auto-Svartlista IP efter"
+
+#: ../wp-act-admin.php:622
+msgid "failed logon attempts"
+msgstr "misslyckad inloggningsförsök"
+
+#: ../wp-act-admin.php:626
+msgid "If checked, IP addresses will be automatically added to the blacklist after x failed logon attempts during the last 48h."
+msgstr "Om markerad, IP adresser kommer automatiskt läggas till efter x misslyckade inloggningsförsok under de senaste 48 timmarna."
+
+#: ../wp-act-admin.php:630
+msgid "IP list"
+msgstr "IP lista"
+
+#: ../wp-act-admin.php:633
+msgid "One IP per line. Don't blacklist your own IP ! Examples:"
+msgstr "En IP adress per rad. Svartlista inte din egen IP adress ! Exempel:"
+
+#: ../wp-act-admin.php:645
+msgid "Empty activity table : "
+msgstr "Töm aktivitetstabellen :"
+
+#: ../wp-act-admin.php:652
+msgid "Reset logs"
+msgstr "Återställ loggar"
+
+#: ../wp-act-admin.php:652
+msgid ""
+"Empty activity table ? All your activity logs will be deleted.\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to proceed.\\n"
+msgstr ""
+"Töm aktivitetstabell ? Alla aktivitetsloggar kommer tas bort.\\n"
+"\\n"
+"Välj [Avbryt] för att avbryta, fortsätt med [OK]. \\n"
+" "
+
+#: ../wp-act-admin.php:653
+msgid "Warning : cleaning activity table erase all activity logs."
+msgstr "Varning : rensning aktivitetstabellen raderar alla aktivitetsloggar."
+
+#: ../wp-act-admin.php:657
+#: ../wp-act-admin.php:664
+msgid "Uninstall plugin"
+msgstr "Avinstallera tillägget"
+
+#: ../wp-act-admin.php:664
+msgid ""
+"Uninstall plugin ? Settings and activity logs will be deleted.\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to proceed.\\n"
+msgstr ""
+"Avinstallera tillägget ? Inställningar och aktivitetsloggar kommer tas bort.\\n"
+"\\n"
+"Välj [Avbryt] för att avbryta, [OK] för att fortsätta.\\n"
+
+#: ../wp-act-admin.php:665
+msgid "Warning : This will delete settings and activity table."
+msgstr "Varning : Detta kommer att ta bort inställningar och tabellen aktivitet."
+
+#: ../wp-act-admin.php:674
+#, php-format
+msgid "WP-Activity is a plugin by <a href=\"http://www.driczone.net\">Dric</a>. Version <strong>%s</strong>."
+msgstr "WP-Activity är ett tillägg av <a href=\"http://www.driczone.net\">Dric</a>. Version <strong>%s</strong>."
+
+#: ../wp-act-admin.php:748
+msgid "Successful user login(s)"
+msgstr "Lyckade användarlogin"
+
+#: ../wp-act-admin.php:749
+msgid "New registered user(s)"
+msgstr "Nyregistrerade användare"
+
+#: ../wp-act-admin.php:750
+msgid "Login attempt(s) failed"
+msgstr "Misslyckade inloggningsförsök"
+
+#: ../wp-act-admin.php:751
+msgid "Access(es) denied"
+msgstr "Nekad(e) access(er)"
+
+#: ../wp-act-admin.php:752
+msgid "Profile(s) edited"
+msgstr "Profil(er) redigerad(e)"
+
+#: ../wp-act-admin.php:753
+msgid "Post(s) created"
+msgstr "Post(er) skapad(e)"
+
+#: ../wp-act-admin.php:754
+msgid "Post(s) edited"
+msgstr "Post(er) redigerad(e)"
+
+#: ../wp-act-admin.php:755
+msgid "Post(s) deleted"
+msgstr "Post(er) raderad(e)"
+
+#: ../wp-act-admin.php:756
+msgid "Comment(s) added"
+msgstr "Kommentar(er) tillagd(a)"
+
+#: ../wp-act-admin.php:757
+msgid "Link(s) added"
+msgstr "Länk(ar) tillagd(a)"
+
+#: ../wp-act-admin.php:762
+msgid "Close"
+msgstr "Stäng"
+
+#: ../wp-act-admin.php:763
+msgid "&#x3c;Prev"
+msgstr "&#x3c;Föregående"
+
+#: ../wp-act-admin.php:764
+msgid "Next&#x3e;"
+msgstr "Nästa&#x3e;"
+
+#: ../wp-act-admin.php:765
+msgid "Current"
+msgstr "Nuvarande"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:766
+msgid "January"
+msgstr "Januari"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:766
+msgid "February"
+msgstr "Februari"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:766
+msgid "March"
+msgstr "Mars"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:766
+msgid "April"
+msgstr "April"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:766
+msgid "May"
+msgstr "Maj"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:766
+msgid "June"
+msgstr "Juni"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:767
+msgid "July"
+msgstr "Juli"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:767
+msgid "August"
+msgstr "Augusti"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:767
+msgid "September"
+msgstr "September"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:767
+msgid "October"
+msgstr "Oktober"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:767
+msgid "November"
+msgstr "November"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:767
+msgid "December"
+msgstr "December"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:768
+msgid "Jan_January_abbreviation"
+msgstr "Jan"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:768
+msgid "Feb_February_abbreviation"
+msgstr "Feb"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:768
+msgid "Mar_March_abbreviation"
+msgstr "Mar"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:768
+msgid "Apr_April_abbreviation"
+msgstr "Apr"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:768
+msgid "May_May_abbreviation"
+msgstr "Maj"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:768
+msgid "Jun_June_abbreviation"
+msgstr "Jun"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:769
+msgid "Jul_July_abbreviation"
+msgstr "Jul"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:769
+msgid "Aug_August_abbreviation"
+msgstr "Aug"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:769
+msgid "Sep_September_abbreviation"
+msgstr "Sep"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:769
+msgid "Oct_October_abbreviation"
+msgstr "Okt"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:769
+msgid "Nov_November_abbreviation"
+msgstr "Nov"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:769
+msgid "Dec_December_abbreviation"
+msgstr "Dec"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:770
+msgid "Sunday"
+msgstr "Söndag"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:770
+msgid "Monday"
+msgstr "Måndag"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:770
+msgid "Tuesday"
+msgstr "Tisdag"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:770
+msgid "Wednesday"
+msgstr "Onsdag"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:770
+msgid "Thursday"
+msgstr "Torsdag"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:770
+msgid "Friday"
+msgstr "Fredag"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:770
+msgid "Saturday"
+msgstr "Lördag"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:771
+msgid "Sun"
+msgstr "Sön"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:771
+msgid "Mon"
+msgstr "Mån"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:771
+msgid "Tue"
+msgstr "Tis"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:771
+msgid "Wed"
+msgstr "Ons"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:771
+msgid "Thu"
+msgstr "Tor"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:771
+msgid "Fri"
+msgstr "Fre"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:771
+msgid "Sat"
+msgstr "Lör"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:772
+msgid "S_Sunday_initial"
+msgstr "S_Söndag_initial"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:772
+msgid "M_Monday_initial"
+msgstr "M_Måndag_initial"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:772
+msgid "T_Tuesday_initial"
+msgstr "T_Tisdag_initial"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:772
+msgid "W_Wednesday_initial"
+msgstr "O_Onsdag_initial"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:772
+msgid "T_Thursday_initial"
+msgstr "T_Torsdag_initial"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:772
+msgid "F_Friday_initial"
+msgstr "F_Fredag_initial"
+
+# Default Wordpress string, don't translate it
+#: ../wp-act-admin.php:772
+msgid "S_Saturday_initial"
+msgstr "L_Lördag_initial"
+
+#: ../wp-act-admin.php:807
+msgid "Date range"
+msgstr "Datumspann"
+
+#: ../wp-act-admin.php:822
+#: ../wp-activity.php:895
+#: ../wp-activity.php:963
+msgid "Events number :"
+msgstr "Händelser :"
+
+#: ../wp-act-admin.php:834
+msgid "See data for"
+msgstr "Se data för"
+
+#: ../wp-activity-feed.php:16
+msgid "New visit"
+msgstr "Nytt besök"
+
+#: ../wp-activity-feed.php:17
+msgid "New post"
+msgstr "Ny post"
+
+#: ../wp-activity-feed.php:18
+msgid "Post edited"
+msgstr "Post redigerad"
+
+#: ../wp-activity-feed.php:19
+msgid "Post deleted"
+msgstr "Post borttagen"
+
+#: ../wp-activity-feed.php:20
+msgid "Profile edited"
+msgstr "Profil redigerad"
+
+#: ../wp-activity-feed.php:21
+msgid "New comment"
+msgstr "Ny kommentar"
+
+#: ../wp-activity-feed.php:22
+msgid "Comment edited"
+msgstr "Kommentar redigerad"
+
+#: ../wp-activity-feed.php:23
+msgid "Comment deleted"
+msgstr "Kommentar borttagen"
+
+#: ../wp-activity-feed.php:24
+msgid "New link"
+msgstr "Ny länk"
+
+#: ../wp-activity-feed.php:31
+#: ../wp-activity.php:464
+#, php-format
+msgid "%s activity RSS Feed"
+msgstr "%s aktivitet RSS Feed"
+
+#: ../wp-activity-feed.php:33
+#, php-format
+msgid "User events of %s"
+msgstr "Användarhändelse av %s"
+
+#: ../wp-activity.php:206
+msgid "Activity events"
+msgstr "Aktivitetshändelse"
+
+#: ../wp-activity.php:210
+msgid "Hide my activity :"
+msgstr "Dölj min aktivitet"
+
+#: ../wp-activity.php:214
+msgid "If selected, this option makes you become invisible in activity events."
+msgstr "Om vald, detta alternativ gör att du blir osynlig i aktivitetshändelser"
+
+#: ../wp-activity.php:402
+msgid "Last logon :"
+msgstr "Senaste inloggning :"
+
+#: ../wp-activity.php:483
+#, php-format
+msgid "%s activity archive"
+msgstr "%s aktivitetsarkiv"
+
+#: ../wp-activity.php:483
+msgid "Archives"
+msgstr "Arkiv"
+
+#: ../wp-activity.php:573
+#: ../wp-activity.php:578
+msgid "View Profile"
+msgstr "Visa Profil"
+
+#: ../wp-activity.php:587
+msgid "has logged in."
+msgstr "har loggat in."
+
+#: ../wp-activity.php:627
+msgid "published"
+msgstr "publiserad"
+
+#: ../wp-activity.php:645
+msgid "edited"
+msgstr "redigerad"
+
+#: ../wp-activity.php:654
+msgid "deleted"
+msgstr "borttagen"
+
+#: ../wp-activity.php:683
+msgid "commented"
+msgstr "kommenterad"
+
+#: ../wp-activity.php:712
+msgid "edited comment on"
+msgstr "redigerad kommentar om"
+
+#: ../wp-activity.php:726
+msgid "deleted comment on"
+msgstr "borttagen kommentar om"
+
+#: ../wp-activity.php:734
+msgid "has registered."
+msgstr "har registrerats."
+
+#: ../wp-activity.php:742
+msgid "has updated his profile."
+msgstr "har uppdaterat sin profil."
+
+#: ../wp-activity.php:756
+msgid "has added a link to"
+msgstr "har lagt till en länk till"
+
+#: ../wp-activity.php:817
+msgid "weeks"
+msgstr "veckor"
+
+#: ../wp-activity.php:817
+msgid "week"
+msgstr "vecka"
+
+#: ../wp-activity.php:818
+#: ../wp-activity.php:822
+msgid "days"
+msgstr "dagar"
+
+#: ../wp-activity.php:818
+#: ../wp-activity.php:822
+msgid "day"
+msgstr "dag"
+
+#: ../wp-activity.php:823
+#: ../wp-activity.php:827
+msgid "hours"
+msgstr "timmar"
+
+#: ../wp-activity.php:823
+#: ../wp-activity.php:827
+msgid "hour"
+msgstr "timme"
+
+#: ../wp-activity.php:828
+#: ../wp-activity.php:832
+msgid "minutes"
+msgstr "minuter"
+
+#: ../wp-activity.php:828
+#: ../wp-activity.php:832
+msgid "minute"
+msgstr "minut"
+
+#: ../wp-activity.php:836
+msgid "seconds"
+msgstr "sekunder"
+
+#: ../wp-activity.php:836
+msgid "second"
+msgstr "sekund"
+
+#: ../wp-activity.php:840
+#, php-format
+msgid "%s ago"
+msgstr "%s sedan"
+
+#: ../wp-activity.php:855
+msgid "Display a stream of registered users events"
+msgstr "Visa en ström av registrerade händelser "
+
+#: ../wp-activity.php:861
+msgid "Wp-Activity Widget"
+msgstr "Wp-Activity Widget"
+
+#: ../wp-activity.php:891
+#: ../wp-activity.php:958
+msgid "Title :"
+msgstr "Titel : "
+
+#: ../wp-activity.php:899
+msgid "Widget width (px) :"
+msgstr "Widget bredd (px) :"
+
+#: ../wp-activity.php:908
+msgid "Display the logged user own activity"
+msgstr "Visar den inloggade användaren egen aktivitet"
+
+#: ../wp-activity.php:914
+msgid "Wp-Activity logged user own activity"
+msgstr "Wp-Activity inloggad användares egen aktivitet "
+
+#: ../wp-activity.php:946
+msgid "Your activity"
+msgstr "Din aktivitet"
+
+#: ../wp-activity.php:968
+msgid "When viewed by visitor"
+msgstr "När de ses av besökare"
+
+#: ../wp-activity.php:970
+msgid "Display all users activity"
+msgstr "Visa alla användares aktiviteter"
+
+#: ../wp-activity.php:972
+msgid "Display nothing"
+msgstr "Visa ingenting"
+

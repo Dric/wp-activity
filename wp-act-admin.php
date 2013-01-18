@@ -282,7 +282,7 @@ function act_admin_activity(){
     <?php
       $act_start = ($act_page - 1)*$act_list_limit;
       $act_recent_sql  = "(SELECT u.display_name as display_name, u.id as id, act_type, act_date, act_params, a.id as act_id FROM ".$wpdb->prefix."activity AS a, ".$wpdb->users." AS u WHERE a.user_id = u.id ".$sqlfilter." ORDER BY ".$sqlorderby;
-      $logins = $wpdb->get_results($wpdb->prepare($act_recent_sql));
+      $logins = $wpdb->get_results($act_recent_sql);
       $act_count = count($logins);
       //echo 'act_recent_sql : '.$act_recent_sql.' - act_count : '.$act_count.'<br />';
     ?>

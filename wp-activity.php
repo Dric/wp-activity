@@ -4,7 +4,7 @@
     Plugin URI: http://www.driczone.net/blog/plugins/wp-activity
     Description: Monitor and display blog members activity ; track and blacklist unwanted login attemps.
     Author: Dric
-    Version: 2.0 alpha
+    Version: 2.0
     Author URI: http://www.driczone.net
 */
 
@@ -31,7 +31,7 @@ $act_list_limit = 50; //Change this if you want to display more than 50 items pe
 $strict_logs = false; //If you don't want to keep track of posts authors changes, set this to "true"
 $no_admin_mess = false; //If you don't want to get annoyed by admin panel additions
 $act_user_filter_max = 25; //If you have less than 25 users (default value), it will display a select field with all users instead of a search field in activity log filter
-$act_plugin_version = "2.0 alpha"; //don't modify this !
+$act_plugin_version = "2.0"; //don't modify this !
 
 $options_act = get_option('act_settings');
 if ( ! defined( 'WP_CONTENT_URL' ) ) {
@@ -449,7 +449,11 @@ function act_stream_user($act_user='') {
 function act_stream_shortcode ($attr) {
     $attr = shortcode_atts(array('number'   => '-1',
                                  'title'    => '',), $attr);
-    return act_stream($attr['number'], $attr['title'], true, '');
+		if ( in_the_loop() ) {
+			return act_stream($attr['number'], $attr['title'], true, '');
+		} else {
+			return null;
+		}
 }
 
 add_shortcode('ACT_STREAM', 'act_stream_shortcode');
